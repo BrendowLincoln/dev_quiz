@@ -1,4 +1,5 @@
-import 'package:dev_quiz/splash/splash_page.dart';
+import 'package:dev_quiz/app/home/home_page.dart';
+import 'package:dev_quiz/app/splash/splash_page.dart';
 import 'package:flutter/material.dart';
 
 class AppWidget extends StatelessWidget {
@@ -8,7 +9,7 @@ class AppWidget extends StatelessWidget {
       title: 'Dev Quiz',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(),
-      home: SplashPage(),
+      home: HomePage(),
     );
   }
 }
